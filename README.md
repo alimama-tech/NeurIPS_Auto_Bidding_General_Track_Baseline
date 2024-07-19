@@ -13,6 +13,14 @@ pip install -r requirements.txt
 
 # Usage
 ## Dataset Link
+Due to the large size of the data file, it has been split into multiple parts for download.
+https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/general_track_data_period_7-8.zip
+https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/general_track_data_period_9-10.zip
+https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/general_track_data_period_11-12.zip
+https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/general_track_data_period_13.zip
+
+
+
 
 ## Data Processing
 Download the traffic granularity data and place it in the biddingTrainENv/data/ folder.
@@ -21,6 +29,13 @@ The directory structure under data should be:
 biddingTrainEnv
 |── data
     |── traffic
+        |── period-7.csv
+        |── period-8.csv
+        |── period-9.csv
+        |── period-10.csv
+        |── period-11.csv
+        |── period-12.csv
+        |── period-13.csv
 ```
 
 Run this script to convert the traffic granularity data into trajectory data required for RL training, facilitating subsequent RL policy training.
