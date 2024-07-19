@@ -1,0 +1,9 @@
+numpy==1.24.2
+pandas==2.0.3
+torch==1.12.0
+gin==0.1.006
+gin_config==0.5.0
+matplotlib==3.3.4
+scipy==1.11.1
+psutil
+func_timeout
