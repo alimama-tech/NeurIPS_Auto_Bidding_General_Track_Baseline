@@ -14,9 +14,13 @@ pip install -r requirements.txt
 # Usage
 ## Dataset Link
 Due to the large size of the data file, it has been split into multiple parts for download.
+
 https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/general_track_data_period_7-8.zip
+
 https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/general_track_data_period_9-10.zip
+
 https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/general_track_data_period_11-12.zip
+
 https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/general_track_data_period_13.zip
 
 
