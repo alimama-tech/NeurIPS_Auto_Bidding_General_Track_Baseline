@@ -30,7 +30,7 @@ https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/general_tr
 Download the traffic granularity data and place it in the biddingTrainENv/data/ folder.
 The directory structure under data should be:
 ```
-biddingTrainEnv
+NeurIPS_Auto_Bidding_General_Track_Baseline
 |── data
     |── traffic
         |── period-7.csv
