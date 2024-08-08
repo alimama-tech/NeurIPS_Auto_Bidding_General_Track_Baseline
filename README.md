@@ -15,13 +15,29 @@ pip install -r requirements.txt
 ## Dataset Link
 Due to the large size of the data file, it has been split into multiple parts for download.
 
-https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/general_track_data_period_7-8.zip
+https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/autoBidding_general_track_data_period_7-8.zip
 
-https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/general_track_data_period_9-10.zip
+https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/autoBidding_general_track_data_period_9-10.zip
 
-https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/general_track_data_period_11-12.zip
+https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/autoBidding_general_track_data_period_11-12.zip
 
-https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/general_track_data_period_13.zip
+https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/autoBidding_general_track_data_period_13.zip
+
+https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/autoBidding_general_track_data_period_14-15.zip
+
+https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/autoBidding_general_track_data_period_16-17.zip
+
+https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/autoBidding_general_track_data_period_18-19.zip
+
+https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/autoBidding_general_track_data_period_20-21.zip
+
+https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/autoBidding_general_track_data_period_22-23.zip
+
+https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/autoBidding_general_track_data_period_24-25.zip
+
+https://alimama-bidding-competition.oss-cn-beijing.aliyuncs.com/share/autoBidding_general_track_data_period_26-27.zip
+
+
 
 
 
@@ -40,6 +56,21 @@ NeurIPS_Auto_Bidding_General_Track_Baseline
         |── period-11.csv
         |── period-12.csv
         |── period-13.csv
+        |── period-14.csv
+        |── period-15.csv
+        |── period-16.csv
+        |── period-17.csv
+        |── period-18.csv
+        |── period-19.csv
+        |── period-20.csv
+        |── period-21.csv
+        |── period-22.csv
+        |── period-23.csv
+        |── period-24.csv
+        |── period-25.csv
+        |── period-26.csv
+        |── period-27.csv
+        
 ```
 
 Run this script to convert the traffic granularity data into trajectory data required for RL training, facilitating subsequent RL policy training.
